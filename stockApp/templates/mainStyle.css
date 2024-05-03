@@ -1,0 +1,28 @@
+/* Estilos para el menú desplegable */
+.menu-toggle {
+    display: none;
+}
+
+.menu-toggle + label {
+    cursor: pointer;
+    display: block;
+    padding: 10px;
+    background-color: #064e6b;
+    color: #fff;
+    text-align: center;
+}
+
+.menu-toggle:checked ~ nav ul {
+    display: block;
+}
+
+nav ul {
+    display: none;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 10px;
+    background-color: #f4f4f4;
+}
